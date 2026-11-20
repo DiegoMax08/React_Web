@@ -1,6 +1,7 @@
 
 import "./App.css";
 import MyRoutes from "./routers/routes";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -10,6 +11,8 @@ function App() {
       </header>
 
       <MyRoutes />
+
+      <Footer />
     </div>
   );
 }
