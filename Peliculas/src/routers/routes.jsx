@@ -1,6 +1,3 @@
-<<<<<<< Updated upstream
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-=======
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { LandingPage } from "../pages/LandingPage";
 import { MovieDetails } from "../pages/MovieDetails";
@@ -17,4 +14,3 @@ function MyRoutes() {
 }
 
 export default MyRoutes;
->>>>>>> Stashed changes
