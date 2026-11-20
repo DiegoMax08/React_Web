@@ -60,9 +60,10 @@ npm run dev
 - /movies/:movieId
 
 ## API utilizada
+The Movie Database (TMDB) (https://api.themoviedb.org/3
 
 ## Descripción de funcionamiento
-
+Al acceder a la aplicación se muestra el título de la página "Películas", a su vez está hace una petición a TMDB 
 ## Link del repositorio
 
 ## Link del despliegue en Netlify
