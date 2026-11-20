@@ -1,20 +1,22 @@
 import { useEffect, useState } from "react";
 import { get } from "../data/httpClient";
+import { MovieCard } from "./MovieCard";
+import "./ContextMovieCard.css";
 
-function ContextMovieCard() {
+export default function ContextMovieCard() {
   const [movies, setMovies] = useState([]);
 
   useEffect(() => {
-    get("/discover/movie")
-      .then((data) => setMovies(data.results))
-      .catch((error) => console.error(error));
+    get("/discover/movie").then((data) => {
+      setMovies(data.results);
+    });
   }, []);
 
   return (
-    <div>
-      <p>Películas recibidas: {movies.length}</p>
-    </div>
+    <ul className="container">
+      {movies.map((movie) => (
+        <MovieCard key={movie.id} movie={movie} />
+      ))}
+    </ul>
   );
 }
-
-export default ContextMovieCard;
