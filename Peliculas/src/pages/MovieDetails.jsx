@@ -1,6 +1,6 @@
 import {useEffect, useState} from "react"
 import { useParams } from "react-router-dom"
-import {get} from " .. /data/httpClient"
+import { get } from "../data/httpClient";
 import { getMovieImg } from "../utils/getMovieImg";
 import "./MovieDetails.css";
 
