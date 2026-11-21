@@ -6,7 +6,7 @@
 - Juan Pablo Ramirez Baltierra
 
 
-##Objetivo
+## Objetivo
 Desarrollar una pagina web con React y Vite que consume una API para mostrar un listado de detalles de peliculas desde The Movie Database, todo trabajandolo de forma colectiva y paso a paso.
 
 
@@ -56,17 +56,24 @@ practica7-react-peliculas/
 
 
 ## Instalación y ejecución local
+Para clonar el repositorio:
+git clone [URL_DEL_REPOSITORIO](https://github.com/DiegoMax08/React_Web/tree/main)
+   cd practica7-react-pelicula
+<dr>Instalar las dependencias:  
 npm install
+<dr>Crea un archivo .env en la raíz del proyecto y agregar la API de The Movie Database (TMDB):
+VITE_TMDB_API_KEY= https://api.themoviedb.org/3
+<dr>Ejecutar el servidor de desarroll
 npm run dev
 
 
 ## Rutas utilizadas
-- /
-- /movies/:movieId
+- / = LandingPage. Página de inicio que renderiza el componente MovieGrid con el catálogo de películas descubiertas.
+- /movies/:movieId = MovieDetails. Vista dinámica que captura el parámetro movieId de la URL para consultar y mostrar la información detallada de una película específica.
 
 
 ## API utilizada
-The Movie Database (TMDB) (https://api.themoviedb.org/3
+The Movie Database (TMDB) https://api.themoviedb.org/3
 
 ## Descripción de funcionamiento
 Al acceder a la aplicación se muestra el título de la página "Películas", a su vez está hace una petición a TMDB y se despliega en la pantalla una serie de imagenes con el póster de peliculas y su titulo, al hacer clic en algun póster React Router redirige al usuario a /movies/:movieId y se muestra una imagen ampliada del póster, el título completo, la lista de géneros separados por comas y la descripción o resumen de la trama, ademas se muestra los nombres completos de los integrantes, datos del profesor, materia, calendario escolar, fecha y el escudo en el pie de página.
