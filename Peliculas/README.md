@@ -56,14 +56,14 @@ practica7-react-peliculas/
 
 
 ## Instalación y ejecución local
-Para clonar el repositorio:
+**Para clonar el repositorio:**<br>
 git clone [URL_DEL_REPOSITORIO](https://github.com/DiegoMax08/React_Web/tree/main)
    cd practica7-react-pelicula<br>
-Instalar las dependencias:  
+**Instalar las dependencias:**<br>  
 npm install<br>
-Crea un archivo .env en la raíz del proyecto y agregar la API de The Movie Database (TMDB):
+**Crea un archivo .env en la raíz del proyecto y agregar la API de The Movie Database (TMDB):**<br>
 VITE_TMDB_API_KEY= https://api.themoviedb.org/3 <br>
-Ejecutar el servidor de desarroll
+**Ejecutar el servidor de desarrollo:**<br>
 npm run dev
 
 
@@ -88,11 +88,18 @@ https://practica7react.netlify.app
 
 
 ## Conclusiones
-Integrante 1:
-Integrante 2:
-Integrante 3:
-Integrante 4:
+**Integrante 1:**<br>
+En esta actividad puse a prueba lo que aprendí acerca de las API en actividades pasadas, además de poner a prueba otros conocimientos/herramientas que se nos han enseñado con anterioridad en el curso, por ejemplo el uso de CSS o el uso de la herramienta de Netlify para que cualquiera pueda ver la página que se creó
+Algo nuevo que aprendí en esta actividad fue el uso de React y Vite, que si bien ya había usado anteriormente, no lograba comprender del todo cuál era su utilidad. Además, no está de más poner a prueba lo que he aprendido sobre github, ya que es una herramienta muy importante para poder manejar este tipo de trabajos.<br>
 
+**Integrante 2:**<br>
+En esta actividad fue la primera vez que trabajo en conjunto utilizando github en simultáneo en distintas tareas, también es la primera vez que he visto en funcionamiento cosas como la separación de tareas y la definición de una ruta crítica de verdad. Independiente de lo anterior también me ayudó a aprender un poco más de react, a pesar de que ya lo había utilizado, el uso en este proyecto me ayudó a comprender un poco más el cómo utilizarlo, además de la utilización de APIs.<br>
+
+**Integrante 3:**<br>
+Desarrollar esta práctica de forma colaborativa en Git y GitHub nos ayudó al refuerzo de conocimientos teóricos sobre el funcionamiento de las API´s y su funcionalidad dentro de una aplicación, también la integración de herramientas como React, Vite y CSS  nos ayudó a facilitar el desarrollo, además dividir el proyecto en módulos nos permitió avanzar de forma ordenada logrando que cada integrante completara los commits necesarios para desarrollar la práctica.<br>
+
+**Integrante 4:**<br>
+En esta actividad pude aplicar y reforzar lo que hemos visto sobre el consumo de APIs y el desarrollo frontend, integrando herramientas como React, Vite y CSS para construir una interfaz funcional y clara. Aunque ya sabía trabajar en equipo utilizando GitHub me permitió coordinar cambios, manejar el flujo de trabajo del repositorio y ver en práctica cómo se reparten las responsabilidades dentro de un proyecto colaborativo. Más allá de lo técnico, esta experiencia ayudó a practicar cómo se conectan las distintas piezas de una aplicación web moderna desde el desarrollo hasta su organización en equipo.<br>
 Práctica 7 • React + Vite + GitHub + Netlify
 
 Guía didáctica para alumnos | Página 13
