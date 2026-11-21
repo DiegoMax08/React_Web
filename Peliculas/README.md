@@ -58,12 +58,12 @@ practica7-react-peliculas/
 ## Instalación y ejecución local
 Para clonar el repositorio:
 git clone [URL_DEL_REPOSITORIO](https://github.com/DiegoMax08/React_Web/tree/main)
-   cd practica7-react-pelicula
-<dr>Instalar las dependencias:  
-npm install
-<dr>Crea un archivo .env en la raíz del proyecto y agregar la API de The Movie Database (TMDB):
-VITE_TMDB_API_KEY= https://api.themoviedb.org/3
-<dr>Ejecutar el servidor de desarroll
+   cd practica7-react-pelicula<br>
+Instalar las dependencias:  
+npm install<br>
+Crea un archivo .env en la raíz del proyecto y agregar la API de The Movie Database (TMDB):
+VITE_TMDB_API_KEY= https://api.themoviedb.org/3 <br>
+Ejecutar el servidor de desarroll
 npm run dev
 
 
