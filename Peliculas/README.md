@@ -11,13 +11,13 @@ Desarrollar una pagina web con React y Vite que consume una API para mostrar un 
 
 
 ## Tecnologías
--**React:** Biblioteca principal para la construcción de la interfaz de usuario basada en componentes.
--**Vite:** Entorno de desarrollo rápido y empaquetador para producción.
--**React Router DOM:** Gestión de navegación declarativa y rutas dinámicas (`BrowserRouter`, `Routes`, `Route`).
--**CSS3:** Estilizado responsivo para la cuadrícula de tarjetas y vistas de detalle[cite: 10, 12].
--**TMDB API:** Fuente de datos externa para obtener el catálogo, pósters, géneros y sinopsis de las películas[cite: 2, 4, 10].
--**Git y GitHub:** Control de versiones y flujo de trabajo colaborativo mediante ramas y commits[cite: 3, 11].
--**Netlify:** Plataforma de alojamiento y despliegue continuo en la nube[cite: 2, 13].
+-**React:** Biblioteca principal para la construcción de la interfaz de usuario basada en componentes.<br>
+-**Vite:** Entorno de desarrollo rápido y empaquetador para producción.<br>
+-**React Router DOM:** Gestión de navegación declarativa y rutas dinámicas (`BrowserRouter`, `Routes`, `Route`).<br>
+-**CSS3:** Estilizado responsivo para la cuadrícula de tarjetas y vistas de detalle.<br>
+-**TMDB API:** Fuente de datos externa para obtener el catálogo, pósters, géneros y sinopsis de las películas.<br>
+-**Git y GitHub:** Control de versiones y flujo de trabajo colaborativo mediante ramas y commits.<br>
+-**Netlify:** Plataforma de alojamiento y despliegue continuo en la nube.<br>
 
 
 ## Estructura generalk del proyecto 
