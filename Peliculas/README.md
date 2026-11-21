@@ -67,8 +67,13 @@ Al acceder a la aplicación se muestra el título de la página "Películas", a 
 ## Link del repositorio
 
 ## Link del despliegue en Netlify
-
+https://practica7react.netlify.app
 ## Conclusiones
+Integrante 1:
+Integrante 2:
+Integrante 3:
+
+Integrante 4:
 
 Práctica 7 • React + Vite + GitHub + Netlify
 
