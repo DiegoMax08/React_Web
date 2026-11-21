@@ -50,7 +50,7 @@ practica7-react-peliculas/
 ├── package.json            # Dependencias y scripts del proyecto
 └── vite.config.js          # Configuración de Vite
 ```
-continuara........................
+
 ## Instalación y ejecución local
 npm install
 npm run dev
@@ -63,7 +63,7 @@ npm run dev
 The Movie Database (TMDB) (https://api.themoviedb.org/3
 
 ## Descripción de funcionamiento
-Al acceder a la aplicación se muestra el título de la página "Películas", a su vez está hace una petición a TMDB 
+Al acceder a la aplicación se muestra el título de la página "Películas", a su vez está hace una petición a TMDB y se despliega en la pantalla una serie de imagenes con el póster de peliculas y su titulo, al hacer clic en algun póster React Router redirige al usuario a /movies/:movieId y se muestra una imagen ampliada del póster, el título completo, la lista de géneros separados por comas y la descripción o resumen de la trama, ademas se muestra los nombres completos de los integrantes, datos del profesor, materia, calendario escolar, fecha y el escudo en el pie de página.
 ## Link del repositorio
 
 ## Link del despliegue en Netlify
