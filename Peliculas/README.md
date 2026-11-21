@@ -100,10 +100,3 @@ Desarrollar esta práctica de forma colaborativa en Git y GitHub nos ayudó al r
 
 **Integrante 4:**<br>
 En esta actividad pude aplicar y reforzar lo que hemos visto sobre el consumo de APIs y el desarrollo frontend, integrando herramientas como React, Vite y CSS para construir una interfaz funcional y clara. Aunque ya sabía trabajar en equipo utilizando GitHub me permitió coordinar cambios, manejar el flujo de trabajo del repositorio y ver en práctica cómo se reparten las responsabilidades dentro de un proyecto colaborativo. Más allá de lo técnico, esta experiencia ayudó a practicar cómo se conectan las distintas piezas de una aplicación web moderna desde el desarrollo hasta su organización en equipo.<br>
-Práctica 7 • React + Vite + GitHub + Netlify
-
-Guía didáctica para alumnos | Página 13
-
-## Despliegue
-GitHub: ...
-Netlify: ...
